@@ -1,0 +1,33 @@
+{
+    "name": "linkit",
+    "title": "Linkit jQuery plugin",
+    "description": "Simple plugin to change the links.",
+    "keywords": [
+        "link",
+        "html",
+        "content"
+    ],
+    "version": "0.1.0",
+    "author": {
+        "name": "Giorgos Polychronopoulos",
+        "url": "www.webetter.gr"
+    },
+    "maintainers": [
+        {
+            "name": "Giorgos Polychronopoulos",
+            "email": "allwebpromotion@gmail.com",
+            "url": "www.webetter.gr"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/gpoly/jquery.linkit/LICENSE.txt"
+        }
+    ],
+    "homepage": "https://github.com/gpoly/jquery.linkit",
+    "docs": "https://github.com/gpoly/jquery.linkit",
+    "dependencies": {
+        "jquery": ">=1.9"
+    }
+}
