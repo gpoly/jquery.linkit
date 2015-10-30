@@ -1,0 +1,95 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'E:\\Eduonix\\linkit\\jquery.linkit',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Documents and Settings\giorgos.GIORGOS-POLY\Application Data\npm-cache\jquery.linkit\1.0.0\package.tgz not in flight; packing
+9 verbose tar pack [ 'C:\\Documents and Settings\\giorgos.GIORGOS-POLY\\Application Data\\npm-cache\\jquery.linkit\\1.0.0\\package.tgz',
+9 verbose tar pack   'E:\\Eduonix\\linkit\\jquery.linkit' ]
+10 verbose tarball C:\Documents and Settings\giorgos.GIORGOS-POLY\Application Data\npm-cache\jquery.linkit\1.0.0\package.tgz
+11 verbose folder E:\Eduonix\linkit\jquery.linkit
+12 info prepublish jquery.linkit@1.0.0
+13 verbose addLocalTarball adding from inside cache C:\Documents and Settings\giorgos.GIORGOS-POLY\Application Data\npm-cache\jquery.linkit\1.0.0\package.tgz
+14 silly cache afterAdd jquery.linkit@1.0.0
+15 verbose afterAdd C:\Documents and Settings\giorgos.GIORGOS-POLY\Application Data\npm-cache\jquery.linkit\1.0.0\package\package.json not in flight; writing
+16 verbose afterAdd C:\Documents and Settings\giorgos.GIORGOS-POLY\Application Data\npm-cache\jquery.linkit\1.0.0\package\package.json written
+17 silly publish { name: 'jquery.linkit',
+17 silly publish   version: '1.0.0',
+17 silly publish   description: '\'change the link \'',
+17 silly publish   main: 'jquery.linkit.js',
+17 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+17 silly publish   repository:
+17 silly publish    { type: 'git',
+17 silly publish      url: 'git+https://github.com/gpoly/jquery.linkit.git' },
+17 silly publish   keywords: [ 'jquery-plugin', 'ecosystem:jquery' ],
+17 silly publish   author: { name: 'Giorgos Polychronopoulos' },
+17 silly publish   license: 'MIT',
+17 silly publish   bugs: { url: 'https://github.com/gpoly/jquery.linkit/issues' },
+17 silly publish   homepage: 'https://github.com/gpoly/jquery.linkit',
+17 silly publish   readme: '#Linkit JQuery plugin#\r\n\r\n**Linkit** is a simple JQuery plugin to attach links to elements\r\n\r\n##Version ##\r\n\r\n0.3.0\r\n\r\n##Usage ##\r\n\r\n\r\n\r\n                  $("span").linkit({\r\n\r\n                         href:"http://test.com",\r\n                         text:"Click me",\r\n                         target\t\t:\'_self\'\r\n\r\n                  });\r\n\r\n\r\n##Vendors##\r\n\r\nJQuery-[http://jquery.com](http://jquery.com)\r\n\r\n\r\n##License##\r\n\r\nMIT License',
+17 silly publish   readmeFilename: 'README.md',
+17 silly publish   gitHead: 'c229fca55f3b885649e864f875eec723e3583092',
+17 silly publish   _id: 'jquery.linkit@1.0.0',
+17 silly publish   _shasum: 'de974e0dbb20ea101d5437f99580a77479268b7c',
+17 silly publish   _from: '.' }
+18 verbose getPublishConfig undefined
+19 silly mapToRegistry name jquery.linkit
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/jquery.linkit
+23 verbose publish registryBase https://registry.npmjs.org/
+24 silly publish uploading C:\Documents and Settings\giorgos.GIORGOS-POLY\Application Data\npm-cache\jquery.linkit\1.0.0\package.tgz
+25 verbose request uri https://registry.npmjs.org/jquery.linkit
+26 verbose request sending authorization for write operation
+27 info attempt registry request try #1 at 12:00:48 PM
+28 verbose request using bearer token for auth
+29 verbose request id ddaed0f63b97caac
+30 http request PUT https://registry.npmjs.org/jquery.linkit
+31 http 403 https://registry.npmjs.org/jquery.linkit
+32 verbose headers { 'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=60',
+32 verbose headers   'content-length': '105',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Fri, 30 Oct 2015 10:00:01 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-fra1250-FRA',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1446199200.688711,VS0,VE669' }
+33 verbose request invalidating C:\Documents and Settings\giorgos.GIORGOS-POLY\Application Data\npm-cache\registry.npmjs.org\jquery.linkit on PUT
+34 error publish Failed PUT 403
+35 verbose stack Error: You do not have permission to publish 'jquery.linkit'. Are you logged in as the correct user? : jquery.linkit
+35 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:263:12)
+35 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:251:14)
+35 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:171:14)
+35 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:198:22)
+35 verbose stack     at emitTwo (events.js:87:13)
+35 verbose stack     at Request.emit (events.js:172:7)
+35 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1073:14)
+35 verbose stack     at emitOne (events.js:82:20)
+35 verbose stack     at Request.emit (events.js:169:7)
+35 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1019:12)
+36 verbose statusCode 403
+37 verbose pkgid jquery.linkit
+38 verbose cwd E:\Eduonix\linkit\jquery.linkit
+39 error Windows_NT 5.1.2600
+40 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+41 error node v4.1.1
+42 error npm  v2.14.4
+43 error code E403
+44 error You do not have permission to publish 'jquery.linkit'. Are you logged in as the correct user? : jquery.linkit
+45 error If you need help, you may report this error at:
+45 error     <https://github.com/npm/npm/issues>
+46 verbose exit [ 1, true ]

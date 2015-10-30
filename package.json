@@ -1,0 +1,23 @@
+{
+  "name": "get.jquery.linkit",
+  "version": "0.4.0",
+  "description": "'change the link '",
+  "main": "jquery.linkit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpoly/jquery.linkit"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "author": "Giorgos Polychronopoulos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gpoly/jquery.linkit/issues"
+  },
+  "homepage": "https://github.com/gpoly/jquery.linkit"
+}
